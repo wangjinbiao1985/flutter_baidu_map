@@ -41,14 +41,12 @@ android {
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         
         manifestPlaceholders = [
-            BAIDU_MAP_KEY : "MqNHddpNKKEslfIbw7zchiFRHPcvEo3A", /// 百度地图key
+            BAIDU_MAP_KEY : "zcOu67hP4uk50z9KSYCRfC0zKO6s2c7Q", /// 百度地图key
         ]
     }
 
     buildTypes {
         release {
-            // TODO: Add your own signing config for the release build.
-            // Signing with the debug keys for now, so `flutter run --release` works.
             signingConfig signingConfigs.debug
         }
     }

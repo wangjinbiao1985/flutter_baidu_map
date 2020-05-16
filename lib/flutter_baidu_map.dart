@@ -1,5 +1,4 @@
 import 'dart:async';
-import 'dart:io';
 
 import 'package:flutter/services.dart';
 
@@ -29,7 +28,6 @@ class BaiduLocation{
     return new BaiduLocation(
       latitude: value['latitude'],
       longitude:value['longitude'],
-
       country:value['country'],
       countryCode:value['countryCode'],
       province: value['province'],
@@ -53,7 +51,6 @@ class BaiduLocation{
     return {
       "latitude": latitude,
       "longitude":longitude,
-
       "country":country,
       "countryCode":countryCode,
       "province": province,

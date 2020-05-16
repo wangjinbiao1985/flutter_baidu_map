@@ -51,7 +51,6 @@ class _MyAppState extends State<MyApp> {
                     if (location.isSuccess()) {
                       _locationResult = location.locationDescribe;
                     } else {
-                      
                       _locationResult = "定位失败";
                     }
                   });
